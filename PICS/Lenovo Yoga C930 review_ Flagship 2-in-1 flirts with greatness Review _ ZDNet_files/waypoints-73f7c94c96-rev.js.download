@@ -1,0 +1,1 @@
+define(["jquery","version!fly/managers/debug","libs/jquery/jquery.waypoints","version!fly/libs/jquery.throttle-debounce"],function(e,n){n=n.init("waypoints");var i=!1;return{init:function(){i||(i=!0,e(window).on("scroll",e.throttle(1e3,function(){Waypoint.refreshAll(),n.log("fresh!")})))}}});

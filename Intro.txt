@@ -1,0 +1,12 @@
+pip install django_rest_framework
+pip install psycopg2
+pip install mlxtend
+pip install pillow
+
+
+
+
+
+
+
+
